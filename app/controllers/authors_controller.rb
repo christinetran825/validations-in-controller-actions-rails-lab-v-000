@@ -13,6 +13,7 @@ class AuthorsController < ApplicationController
       redirect_to author_path(@author)
     else
       @author
+    end
   end
 
   private
